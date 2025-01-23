@@ -55,16 +55,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hfh-Oe-TUk">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iJX-2Z-I0K"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="iJX-2Z-I0K" firstAttribute="bottom" secondItem="hfh-Oe-TUk" secondAttribute="bottom" id="0FH-2c-Ug5"/>
+                            <constraint firstAttribute="bottom" secondItem="hfh-Oe-TUk" secondAttribute="bottom" id="0FH-2c-Ug5"/>
                             <constraint firstItem="iJX-2Z-I0K" firstAttribute="trailing" secondItem="hfh-Oe-TUk" secondAttribute="trailing" id="GxB-1G-mkT"/>
                             <constraint firstItem="hfh-Oe-TUk" firstAttribute="leading" secondItem="iJX-2Z-I0K" secondAttribute="leading" id="oA8-F6-hJz"/>
-                            <constraint firstItem="hfh-Oe-TUk" firstAttribute="top" secondItem="iJX-2Z-I0K" secondAttribute="top" id="tey-Kj-3kD"/>
+                            <constraint firstItem="hfh-Oe-TUk" firstAttribute="top" secondItem="dEo-qr-GHA" secondAttribute="top" id="tey-Kj-3kD"/>
                         </constraints>
                     </view>
                     <connections>
